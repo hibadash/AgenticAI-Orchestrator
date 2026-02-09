@@ -34,3 +34,6 @@ jobs:
       with:
         name: logs
         path: '**/*.log'
+    - name: Run Tests
+      run: pytest tests/
+
